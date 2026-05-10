@@ -1,8 +1,8 @@
 
 <div align="center">
 
-# ⚙️ SOOM — Backend
-### Stock of Order Management
+# ⚙️ FANDM — Backend
+### Food and Stock of Order Management
 
 > REST API untuk sistem manajemen order dan stok usaha makanan — dibangun dengan pendekatan enterprise-grade dan siap migrasi ke SaaS multi-tenant.
 
@@ -13,7 +13,7 @@
 
 <br/>
 
-Bagian dari proyek **SOOM** · Dikembangkan oleh **Tentic Studio**
+Bagian dari proyek **FANDM** · Dikembangkan oleh **Tentic Studio**
 
 </div>
 
@@ -40,8 +40,8 @@ Bagian dari proyek **SOOM** · Dikembangkan oleh **Tentic Studio**
 
 ```bash
 # Clone repositori
-git clone https://github.com/username/soom-be.git
-cd soom-be
+git clone https://github.com/Tentic-Studio/TNC-fendm-be.git
+cd TNC-fendm-be
 
 # Salin konfigurasi environment
 cp .env.example .env
@@ -61,14 +61,14 @@ docker compose up -d
 ## 📂 Struktur Package
 
 ```
-src/main/java/com/tentik/soom/
+src/main/java/com/tentic/fandm/
 ├── config/         # Konfigurasi Spring Security, CORS, dll
 ├── controller/     # REST API endpoint
 ├── service/        # Business logic & integrasi otomatis
 ├── repository/     # Spring Data JPA repository
 ├── entity/         # JPA entity (tabel database)
 ├── dto/            # Request & Response DTO
-└── mapper/         # MapStruct mapper (DTO <-> Entity)
+└── mapper/         # MapStruct mapper (DTO <-> Entity) (Optional)
 ```
 
 ---
@@ -100,6 +100,6 @@ Beberapa aksi memicu proses otomatis di sisi backend:
 
 <div align="center">
 
-**© 2025 Tentic Studio** · [Frontend Repo](https://github.com/username/soom-fe)
+**© 2025 Tentic Studio** · [Frontend Repo](https://github.com/Tentic-Studio/TNC-fendm-fe.git)
 
 </div>
