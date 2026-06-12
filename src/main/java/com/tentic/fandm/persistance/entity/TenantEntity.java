@@ -15,7 +15,7 @@ import lombok.Setter;
 @SQLRestriction("deleted_at IS NULL")
 @Getter
 @Setter
-public class Tenant extends MasterEntity {
+public class TenantEntity extends MasterEntity {
 
   @Column(name = "code", nullable = false)
   private String code;

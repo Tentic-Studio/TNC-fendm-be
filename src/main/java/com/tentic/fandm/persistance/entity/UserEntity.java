@@ -23,11 +23,11 @@ import lombok.Setter;
 @SQLRestriction("deleted_at IS NULL")
 @Getter
 @Setter
-public class User extends MasterEntity {
+public class UserEntity extends MasterEntity {
 
   @OneToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "tenant_id", nullable = false)
-  private Tenant tenant;
+  private TenantEntity tenant;
 
   @Column(name = "tenant_role", nullable = false)
   private String tenantRole;
